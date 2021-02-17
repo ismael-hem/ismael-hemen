@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-color: rgba(70, 52, 52, 0.548);
+    background-image: url(images/he.jpg.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+    
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.336) ;
+    width: 1024px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+footer {
+    background-color:rgba(0, 0, 0, 0.521);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+h1{
+   font-size: 84px;
+   color: rgba(0, 0, 0, 0.644);
+   font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ } 
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
+ul{
+    background: rgba(66, 65, 65, 0.507);
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
